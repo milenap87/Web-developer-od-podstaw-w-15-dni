@@ -1,0 +1,28 @@
+nav {
+
+    height: 40px;
+    /*    width: 100%;*/
+    background-color: deepskyblue;
+    position: fixed;
+    /*    konieczie określamy połozenie!*/
+    top: 0px;
+    left: 0px;
+    /*    bottom: 600px;*/
+    right: 0px;
+    /*    można określać jak powyżej, od dwóch stron, wtedy określamy gdize się zaczynai kończy*/
+}
+
+div {
+    width: 100px;
+    height: 100px;
+    background-color: black;
+    position: absolute;
+    top: 80px;
+    left: 40px;
+}
+
+p {
+    font-size: 20px;
+    font-family: arial, sans-serif;
+    text-align: justify;
+}

@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="pl">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css" integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <header class="clearfix">
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+    </header>
+
+    <nav>
+        <ul class="clearfix">
+            <!--           najlepiej clearfix dać NA RODZICA-->
+            <li><a href="#">pierwszy</a></li>
+            <li><a href="#">drugi</a></li>
+            <li><a href="#">trzeci</a></li>
+        </ul>
+    </nav>
+
+    <!--   tu div nie ma semantycznego znaczenia, ale bardzo przydaje się do klasy clearfix gdy jego dzieci ustawia się float-->
+    <div class=" blog clearfix">
+        <main>
+            <article class="clearfix">
+                <h1>tytuł artykułu</h1>
+                <img src="https://cdn.pixabay.com/photo/2019/02/25/00/17/kitten-4018756_960_720.jpg" alt="kotki">
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Praesentium molestias, quia quod blanditiis tempore. Aut itaque laboriosam voluptatibus, optio tempore nihil. Quos rem deserunt consectetur, atque esse vero. Ea pariatur nobis dolore odit quam, aspernatur, obcaecati est tempore provident, officiis earum, excepturi voluptate deserunt iure numquam rerum consectetur veniam hic!</p>
+            </article>
+            <article class="clearfix">
+                <h1>tytuł artykułu</h1>
+                <img src="https://cdn.pixabay.com/photo/2019/02/25/00/17/kitten-4018756_960_720.jpg" alt="kotki">
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Praesentium molestias, quia quod blanditiis tempore. Aut itaque laboriosam voluptatibus, optio tempore nihil. Quos rem deserunt consectetur, atque esse vero. Ea pariatur nobis dolore odit quam, aspernatur, obcaecati est tempore provident, officiis earum, excepturi voluptate deserunt iure numquam rerum consectetur veniam hic!</p>
+            </article>
+            <article class="clearfix">
+                <h1>tytuł artykułu</h1>
+                <img src="https://cdn.pixabay.com/photo/2019/02/25/00/17/kitten-4018756_960_720.jpg" alt="kotki">
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Praesentium molestias, quia quod blanditiis tempore. Aut itaque laboriosam voluptatibus, optio tempore nihil. Quos rem deserunt consectetur, atque esse vero. Ea pariatur nobis dolore odit quam, aspernatur, obcaecati est tempore provident, officiis earum, excepturi voluptate deserunt iure numquam rerum consectetur veniam hic!</p>
+            </article>
+        </main>
+
+        <aside>
+            <section class="contact">
+                <p class="title">skontakuj się ze mną:</p>
+                <ul>
+                    <li>uzytkownik@adres.com</li>
+                    <li>444 555 666</li>
+                    <li><i class="fab fa-facebook-square"></i><a href="#">facebook</a></li>
+                </ul>
+            </section>
+            <section class="news">
+
+            </section>
+        </aside>
+    </div>
+
+    <footer>
+        <p>stopka</p>
+    </footer>
+</body>
+
+</html>

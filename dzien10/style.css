@@ -1,0 +1,168 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    font-family: verdana, sans-serif;
+}
+
+.clearfix::after {
+    content: "";
+    display: block;
+    clear: both;
+}
+
+header {}
+
+header div {
+    width: 25%;
+    height: 200px;
+    border: 20px solid lightgray;
+    /*    margin: 2.5%;*/
+    background-color: cadetblue;
+    float: left;
+}
+
+header div:nth-child(1) {
+    background-color: linen;
+}
+
+header div:nth-child(2) {
+    background-color: coral;
+}
+
+header div:nth-child(3) {
+    background-color: blanchedalmond;
+}
+
+header div:nth-child(4) {
+    background-color: cornflowerblue;
+}
+
+header div:nth-child(1):hover {
+    background-color: lightcoral;
+}
+
+header div:nth-child(2):hover {
+    background-color: darkslategray;
+}
+
+header div:nth-child(3):hover {
+    background-color: forestgreen;
+}
+
+header div:nth-child(4):hover {
+    background-color: darkturquoise;
+}
+
+nav {
+    background-color: gray;
+    padding: 10px 0 10px 50px;
+    margin: 10px 0;
+    /*    height: 50px;*/
+}
+
+nav ul {
+    list-style: none;
+    max-width: 1000px;
+    margin: 0 auto;
+}
+
+nav ul li {
+    float: left;
+    width: 25%;
+    margin: 0 10px;
+}
+
+nav ul li a {
+    display: block;
+    font-size: 20px;
+    padding: 10px 30px;
+    text-decoration: none;
+    text-transform: uppercase;
+    border: 2px solid aliceblue;
+    color: aliceblue;
+    text-align: center;
+}
+
+nav ul li a:hover {
+    background-color: lightgoldenrodyellow;
+    color: mediumseagreen;
+    border-color: aquamarine;
+}
+
+main {
+    width: 65%;
+    float: left;
+    padding: 40px 20px 0 20px;
+}
+
+div.blog {
+    margin-top: 20px;
+    max-width: 1280px;
+    margin: 0 auto;
+    margin-top: 40px;
+}
+
+article h1 {
+    text-transform: uppercase;
+}
+
+article img {
+    width: 200px;
+    margin: 20px 20px 20px 0;
+    float: left;
+}
+
+article p {
+    margin-top: 20px;
+}
+
+aside {
+    /*    background-color: lightcyan;*/
+    width: 30%;
+    margin-top: 20px;
+    float: left;
+}
+
+section.contact {
+    background-color: #ddd;
+    padding: 15px;
+}
+
+section.contact ul {
+    list-style: none;
+}
+
+section.contact p {
+    margin-bottom: 20px;
+    font-weight: bold;
+}
+
+section.contact li {
+    margin: 10px 0;
+}
+
+/*stylowanie fontAwesome, bo to jest font a nie ikonka: */
+section.contact li i {
+    margin-right: 10px;
+    color: blue;
+}
+
+section.news {
+    margin-top: 20px;
+    /*    wysokość na potrzeby ćwiczenia, element powinien urosnąć wraz z dziećmi*/
+    height: 300px;
+    padding: 15px;
+    background-color: mistyrose;
+}
+
+footer {
+    background-color: #444;
+    color: aliceblue;
+    text-align: center;
+    padding: 20px 0;
+    margin-top: 40px;
+}

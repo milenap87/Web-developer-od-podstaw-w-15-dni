@@ -1,0 +1,57 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+/*
+html {
+    background-color: blanchedalmond;
+}
+*/
+
+div.wrapper {
+    max-width: 1300px;
+    margin: 0 auto;
+}
+
+nav {
+    background-color: #ddd;
+    padding: 10px 0;
+    text-align: right;
+    /*  dajemy tu a nie w vav a bo chcemy wyrównać elementy a nie tekstw nich*/
+    padding-right: 30px;
+}
+
+nav a {
+    display: inline-block;
+    padding: 10px 15px;
+    margin: 5px 10px;
+    font-size: 20px;
+    border: 2px solid;
+    text-decoration: none;
+    font-family: arial, sans-serif;
+    text-transform: uppercase;
+    color: dimgray;
+}
+
+nav a:hover {
+    color: darkslategrey;
+    background-color: whitesmoke;
+    border-color: gray;
+    transition: 0.2s;
+}
+
+header {
+    height: 200px;
+    background-color: cadetblue;
+}
+
+main {
+    min-height: 50vh;
+    background-color: blanchedalmond;
+}
+
+footer {
+    min-height: 100px;
+    background-color: darkcyan;
+}

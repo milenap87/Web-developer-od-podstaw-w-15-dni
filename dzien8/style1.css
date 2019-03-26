@@ -1,0 +1,96 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+div.wrapper {
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+nav {
+    background-color: #bfb4b9;
+    text-align: right;
+}
+
+nav a {
+    display: inline-block;
+    font-family: 'Caveat', cursive, sans-serif;
+    font-size: 20px;
+    color: darkslategrey;
+    text-decoration: none;
+    text-transform: uppercase;
+    border: 2px solid;
+    padding: 10px 20px;
+    margin: 10px 20px;
+    transition: 0.2s;
+}
+
+nav a:hover {
+    background-color: ghostwhite;
+    border-bottom: 3px dotted;
+}
+
+nav a.btn4 {
+    border: 3px solid;
+    margin-left: 50px;
+}
+
+nav a.btn4:hover {
+    border: 4px dashed;
+    letter-spacing: 3px;
+}
+
+header {
+    height: 75px;
+    /*    background-color: #bfb4b9;*/
+    background-color: #8a7f9c;
+    font-size: 0;
+    /*    fsize 0 to sztuczka wykorzystywana po to, żeby element rodzic liniowy myślał że dzici mają 0 fontu i likwiduje przerwy między nimi*/
+}
+
+header a {
+    display: inline-block;
+    font-size: 25px;
+    font-family: arial, sans-serif;
+    text-decoration: none;
+    text-transform: uppercase;
+    text-align: center;
+    background-color: ghostwhite;
+    padding: 20px 0px;
+    /*    0 z boków bo i tak tekst wyśrodkowany*/
+    /*  to jeden ze sposobów centrowania przycisku!:  line-height: 40px;*/
+    width: 25%;
+}
+
+.btn5 {
+    background-color: mediumvioletred;
+}
+
+.btn6 {
+    background-color: palevioletred;
+}
+
+.btn7 {
+    background-color: lightcoral;
+}
+
+.btn8 {
+    background-color: coral;
+}
+
+header a:hover {
+    border-bottom: 5px solid grey;
+}
+
+main {
+    height: 50vh;
+    /*    background-color: #feefb9;*/
+    background-color: #cec6c9;
+}
+
+footer {
+    height: 100px;
+    background-color: #7e6f82;
+}

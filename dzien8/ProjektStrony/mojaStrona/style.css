@@ -1,0 +1,110 @@
+* {
+    margin: 0;
+    padding: 0;
+    /*    box-sizing: border-box;*/
+}
+
+html {
+    font-size: 10px;
+    font-family: 'Oswald', sans-serif;
+}
+
+/*nawigacja*/
+nav {
+    max-width: 1220px;
+    margin: 20px auto;
+    text-align: right;
+}
+
+nav a {
+    display: inline-block;
+    font-size: 1.8rem;
+    font-family: 'Roboto Condensed', sans-serif;
+    text-transform: uppercase;
+    text-decoration: none;
+    color: #555;
+    padding: 10px;
+    margin: 0 20px;
+}
+
+nav a.reservation {
+    margin-right: 50px;
+    margin-left: 80px;
+    padding: 10px 30px;
+    border: 2px solid #555;
+    font-size: 2.2rem;
+    letter-spacing: 2px;
+    transition: 0.2px;
+}
+
+nav a:hover {
+    border-bottom: 2px solid #444;
+    color: black;
+}
+
+nav a.reservation:hover {
+    background-color: dimgrey;
+    color: whitesmoke;
+    border: 2px solid white;
+}
+
+/*header*/
+header {
+    height: 40vh;
+    background-image: url('auto2.jpg');
+    background-size: cover;
+}
+
+header h1 {
+    font-size: 6rem;
+    color: whitesmoke;
+    text-align: center;
+    line-height: 40vh;
+    /*    ponieważ h1 ma taką samą wielkość jak header i go przykwya (jest transparentny), to zmienimy kontrast przez zmniejszenie transparentności:  */
+    background-color: rgba(0, 0, 0, 0.5);
+}
+
+/*main*/
+main {
+    max-width: 1220px;
+    margin: 5vh auto;
+    font-size: 0;
+}
+
+main p.description {
+    text-align: center;
+    font-size: 2.2rem;
+    margin: 0 50px 30px 50px;
+    line-height: 180%;
+}
+
+main div.feature {
+    display: inline-block;
+    width: 33.33%;
+    transition: 0.1s;
+}
+
+main div.image {
+    height: 200px;
+    background-color: lightcoral;
+    margin: 20px;
+}
+
+main div.image:hover {
+    background-color: bisque;
+}
+
+main h2 {
+    font-size: 2rem;
+    text-align: center;
+    color: #333;
+}
+
+/*stopka*/
+footer {
+    background-color: #000;
+    color: whitesmoke;
+    font-size: 2rem;
+    text-align: center;
+    padding: 2rem 0;
+}

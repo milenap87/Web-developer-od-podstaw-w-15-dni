@@ -1,0 +1,46 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+nav {
+    width: 90%;
+    margin: 30px auto;
+    padding: 0 20px;
+    max-width: 1024px;
+    background-color: #222;
+    border-radius: 25px;
+}
+
+nav ul {
+    list-style: none;
+    font-size: 0;
+}
+
+nav ul li {
+    display: inline-block;
+    width: 20%;
+}
+
+nav ul li a {
+    /*    żeby miec pełną kontrolę zmieniamy same a na block, nie li, kóre mają być liniowo-blokowe!*/
+    display: block;
+    font-size: 20px;
+    color: whitesmoke;
+    text-decoration: none;
+    font-family: arial, sans-serif;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    padding: 20px;
+    text-align: center;
+}
+
+nav ul li a:hover {
+    background-color: darkgray;
+    color: #222;
+}
+
+section {
+    height: 200px;
+    background-color: lightgrey;
+}
